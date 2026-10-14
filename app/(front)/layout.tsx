@@ -1,9 +1,19 @@
-import React from 'react';
 
-export default function RootLayout({
+import type { ReactNode } from "react";
+
+import Navbar from "@/components/layout/Navbar";
+// import Footer from "@/components/layout/Footer";
+
+export default function FrontLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
-  return <div>{children}</div>;
+  return (
+    <>
+      <Navbar />
+      {children}
+      {/* <Footer /> */}
+    </>
+  );
 }
