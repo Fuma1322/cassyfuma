@@ -18,9 +18,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'TRC Voting Portal',
-  description: 'Proudly Powered By MPLUG PTY LTD',
+  title: "Mookho Fuma | Film & TV Production",
+  description:
+    "Explore the film, television, documentary, and creative production portfolio of Mookho Fuma.",
 };
+
 
 export default function RootLayout({
   children,

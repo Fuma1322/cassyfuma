@@ -1,9 +1,12 @@
-import React from 'react'
+import Hero from "@/components/frontend/Hero";
 
-export default function page() {
+export default function HomePage() {
   return (
-    <div>
-      Cassy Portfolio Website
-    </div>
-  )
+    <main>
+      <Hero />
+
+      {/* We'll add these sections next */}
+      {/* <FeaturedProjects /> */}
+    </main>
+  );
 }
