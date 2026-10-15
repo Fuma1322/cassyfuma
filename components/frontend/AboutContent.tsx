@@ -83,7 +83,7 @@ export default function AboutContent() {
                     rgba(39, 21, 34, 0.55),
                     transparent 60%
                   ),
-                  url('/images/mookho-portrait.jpg')
+                  url('/mookho-portrait.jpeg')
                 `,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',

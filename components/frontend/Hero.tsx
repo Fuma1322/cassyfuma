@@ -1,5 +1,4 @@
-
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -23,15 +22,12 @@ export default function Hero() {
           <h1 className="font-serif text-5xl leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
             Every frame
             <br />
-            <span className="italic text-[#C78691]">
-              tells a story.
-            </span>
+            <span className="italic text-[#C78691]">tells a story.</span>
           </h1>
 
           <p className="mt-8 max-w-lg text-base leading-8 text-[#F6F0E8]/70 sm:text-lg">
-            I&apos;m Mookho Fuma, a TV and film production graduate
-            passionate about bringing stories to life through film,
-            documentaries, music videos, and visual storytelling.
+            I&apos;m Mookho Fuma, a TV and film production graduate passionate about bringing
+            stories to life through film, documentaries, music videos, and visual storytelling.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -56,9 +52,7 @@ export default function Hero() {
               Based in Lesotho
             </span>
             <span className="h-1 w-1 rounded-full bg-[#C78691]" />
-            <span className="text-xs text-[#F6F0E8]/55">
-              Creating stories with purpose
-            </span>
+            <span className="text-xs text-[#F6F0E8]/55">Creating stories with purpose</span>
           </div>
         </div>
 
@@ -75,31 +69,23 @@ export default function Hero() {
                   rgba(39, 21, 34, 0.85),
                   rgba(39, 21, 34, 0.05) 65%
                 ),
-                url('/images/mookho-portrait.jpg')
+                url('/mookho-portraitt.jpeg')
               `,
-              backgroundPosition: "center",
-              backgroundSize: "cover",
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
             }}
             role="img"
             aria-label="Portrait of Mookho Fuma"
           >
             {/* Image fallback when the portrait is not yet available */}
             <div className="absolute inset-0 -z-10 flex items-center justify-center">
-              <span className="font-serif text-8xl text-[#C78691]/30">
-                MF
-              </span>
+              <span className="font-serif text-8xl text-[#C78691]/30">MF</span>
             </div>
 
             <div className="absolute inset-x-0 bottom-0 p-7 sm:p-9">
-              <p className="text-xs uppercase tracking-[0.25em] text-[#C5A46D]">
-                The storyteller
-              </p>
-              <p className="mt-2 font-serif text-3xl">
-                Mookho Fuma
-              </p>
-              <p className="mt-2 text-sm text-[#F6F0E8]/70">
-                Film. Perspective. Emotion.
-              </p>
+              <p className="text-xs uppercase tracking-[0.25em] text-[#C5A46D]">The storyteller</p>
+              <p className="mt-2 font-serif text-3xl">Mookho Fuma</p>
+              <p className="mt-2 text-sm text-[#F6F0E8]/70">Film. Perspective. Emotion.</p>
             </div>
           </div>
 
