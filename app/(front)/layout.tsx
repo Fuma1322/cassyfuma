@@ -1,8 +1,7 @@
+import type { ReactNode } from 'react';
 
-import type { ReactNode } from "react";
-
-import Navbar from "@/components/layout/Navbar";
-// import Footer from "@/components/layout/Footer";
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
 
 export default function FrontLayout({
   children,
@@ -13,7 +12,7 @@ export default function FrontLayout({
     <>
       <Navbar />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
