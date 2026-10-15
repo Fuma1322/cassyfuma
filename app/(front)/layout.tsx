@@ -11,7 +11,7 @@ export default function FrontLayout({
   return (
     <>
       <Navbar />
-      {children}
+      <div className="pb-24 md:pb-0">{children}</div>
       <Footer />
     </>
   );
