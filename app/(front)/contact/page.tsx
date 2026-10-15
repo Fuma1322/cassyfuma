@@ -1,5 +1,12 @@
-import React from 'react';
+import type { Metadata } from 'next';
+import ContactContent from '@/components/frontend/ContactContent';
 
-export default function page() {
-  return <div>Contact Page</div>;
+export const metadata: Metadata = {
+  title: 'Contact Mookho Fuma | TV & Film Production',
+  description:
+    'Contact Mookho Fuma for film production opportunities, creative collaborations, and professional enquiries.',
+};
+
+export default function ContactPage() {
+  return <ContactContent />;
 }

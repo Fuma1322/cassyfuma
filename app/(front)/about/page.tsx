@@ -1,5 +1,12 @@
-import React from 'react';
+import type { Metadata } from 'next';
+import AboutContent from '@/components/frontend/AboutContent';
 
-export default function page() {
-  return <div>About Page</div>;
+export const metadata: Metadata = {
+  title: 'About Mookho Fuma | TV & Film Production',
+  description:
+    'Learn about Mookho Fuma, her TV and film production education, creative interests, and approach to visual storytelling.',
+};
+
+export default function AboutPage() {
+  return <AboutContent />;
 }
