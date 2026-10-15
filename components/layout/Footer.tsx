@@ -97,9 +97,9 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 pt-7 text-xs text-[#F6F0E8]/45 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {currentYear} Mookho Fuma. All rights reserved.</p>
-
-          <p className="tracking-wide text-[#25d366]/60">Crafted by MPlug (Pty) Ltd.</p>
+          <p className="tracking-wide text-[#25d366]/60">
+            © {currentYear} All rights reserved. Crafted by MPlug (Pty) Ltd.
+          </p>
         </div>
       </div>
     </footer>

@@ -26,8 +26,10 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 max-w-lg text-base leading-8 text-[#F6F0E8]/70 sm:text-lg">
-            I&apos;m Mookho Fuma, film production graduate passionate about bringing stories to life
-            through film, documentaries, music videos, and visual storytelling.
+            I&apos;m Mookho Fuma — Film Production graduate, camera operator, and editor. I work as
+            a Director of Photography and videographer, turning ideas into moving images that
+            connect. Problem-solving is my superpower, from lighting a tricky scene to cutting a
+            story that flows. Welcome to my portfolio website.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">

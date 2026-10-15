@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react';
-
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 
@@ -11,8 +10,12 @@ export default function FrontLayout({
   return (
     <>
       <Navbar />
-      <div className="pb-24 md:pb-0">{children}</div>
-      <Footer />
+
+      <main>{children}</main>
+
+      <div className="pb-6 md:pb-0">
+        <Footer />
+      </div>
     </>
   );
 }
