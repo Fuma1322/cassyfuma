@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="mb-8 flex items-center gap-3">
             <span className="h-px w-10 bg-[#C5A46D]" />
             <p className="text-xs font-medium uppercase tracking-[0.3em] text-[#C5A46D]">
-              TV & Film Production
+              Film Production
             </p>
           </div>
 

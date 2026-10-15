@@ -168,7 +168,7 @@ export default function AboutContent() {
 
             <div>
               <h3 className="font-serif text-2xl text-[#271522] sm:text-3xl">
-                Associate Degree in TV &amp; Film Production
+                Diploma in Film Production
               </h3>
 
               <p className="mt-3 text-sm font-medium text-[#171719]/75">

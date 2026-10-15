@@ -84,7 +84,7 @@ export default function Navbar() {
             <span>
               <span className="block font-serif text-lg leading-tight">Mookho Fuma</span>
               <span className="mt-1 block text-[9px] uppercase tracking-[0.25em] text-[#F6F0E8]/55">
-                Film & Production
+                Film Production
               </span>
             </span>
           </Link>

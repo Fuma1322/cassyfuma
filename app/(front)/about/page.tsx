@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import AboutContent from '@/components/frontend/AboutContent';
 
 export const metadata: Metadata = {
-  title: 'About Mookho Fuma | TV & Film Production',
+  title: 'About Mookho Fuma | Film Production',
   description:
     'Learn about Mookho Fuma, her TV and film production education, creative interests, and approach to visual storytelling.',
 };
