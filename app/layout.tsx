@@ -18,11 +18,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Mookho Fuma | Film & TV Production",
+  title: 'Mookho Fuma | Film Production',
   description:
-    "Explore the film, television, documentary, and creative production portfolio of Mookho Fuma.",
+    'Explore the film, television, documentary, and creative production portfolio of Mookho Fuma.',
 };
-
 
 export default function RootLayout({
   children,
