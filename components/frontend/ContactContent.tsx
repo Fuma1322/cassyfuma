@@ -18,12 +18,8 @@ const contactMethods = [
 
 const socialLinks = [
   {
-    label: 'Instagram',
-    href: 'https://www.instagram.com/',
-  },
-  {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/',
+    label: 'TikTok',
+    href: 'https://www.tiktok.com/@cassy.ls31',
   },
   {
     label: 'Facebook',
