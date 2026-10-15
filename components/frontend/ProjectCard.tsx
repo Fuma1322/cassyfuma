@@ -1,5 +1,6 @@
 
 import type { PortfolioProject } from "@/lib/data";
+import Link from "next/link";
 
 type ProjectCardProps = {
   project: PortfolioProject;
@@ -13,7 +14,7 @@ export default function ProjectCard({
   return (
     <article className="group">
       <a
-        href={project.youtubeUrl}
+        href="/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`Watch ${project.title} on YouTube`}
@@ -59,9 +60,10 @@ export default function ProjectCard({
       <div className="flex items-start justify-between gap-4 pt-5">
         <div>
           <h3 className="font-serif text-2xl text-[#271522] transition-colors group-hover:text-[#9D6875]">
-            {project.title}
-          </h3>
-
+  <Link href={`/projects/${project.slug}`}>
+    {project.title}
+  </Link>
+</h3>
           <p className="mt-2 max-w-sm text-sm leading-6 text-[#171719]/65">
             {project.description}
           </p>
