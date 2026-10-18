@@ -10,6 +10,7 @@ const navigationLinks = [
 const socialLinks = [
   { label: 'TikTok', href: 'https://www.tiktok.com/@cassy.ls31' },
   { label: 'Facebook', href: 'https://www.facebook.com/cassydefuma.mookho' },
+  { label: 'WhatsApp', href: 'https://wa.me/+26659388613' },
 ];
 
 export default function Footer() {
