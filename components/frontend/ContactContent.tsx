@@ -25,6 +25,10 @@ const socialLinks = [
     label: 'Facebook',
     href: 'https://www.facebook.com/cassydefuma.mookho',
   },
+  {
+    label: 'WhatsApp',
+    href: 'https://wa.me/+26659388613',
+  },
 ];
 
 export default function ContactContent() {
